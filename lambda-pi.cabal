@@ -1,0 +1,19 @@
+name:                lambda-pi
+version:             0.1.0.0
+-- synopsis:
+-- description:
+homepage:            https://github.com/michaelpj/lambda-pi#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Michael Peyton Jones
+maintainer:          me@michaelpj.com
+copyright:           2017 Michael Peyton Jones
+build-type:          Simple
+extra-source-files:  README.md
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     SimplyTyped, DependentlyTyped
+  build-depends:       base >= 4.7 && < 5
+  default-language:    Haskell2010
